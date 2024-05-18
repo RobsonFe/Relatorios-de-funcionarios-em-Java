@@ -31,9 +31,10 @@ public class Main {
         System.out.println("Total pago no mês: " + empresa.calcularTotalPago(mes, ano));
         System.out.println("Total pago em salários no mês: " + empresa.calcularTotalSalarios(mes, ano));
         System.out.println("\n");
+        System.out.println("Funcionários que Recebem Beneficios");
         empresa.listaFuncionariosBeneficios();
-        System.out.println("\n");
         System.out.println("Total pago em benefícios no mês: " + empresa.calcularTotalBeneficios(mes, ano));
+        System.out.println("\n");
         System.out.println("Funcionário com maior pagamento no mês: " + empresa.getFuncionarioComMaiorPagamento(mes, ano).getNome());
         System.out.println("Funcionário com maior benefício no mês: " + empresa.getFuncionarioComMaiorBeneficio(mes, ano).getNome());
         System.out.println("Vendedor que mais vendeu no mês: " + empresa.getVendedorQueMaisVendeu(mes, ano).getNome());
